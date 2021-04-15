@@ -51,7 +51,7 @@ nav ul{
 
 
 nav ul li{
-    
+    font-weight: inherit;
     float: left;
     width: auto;
     height: 10px;
@@ -64,9 +64,6 @@ nav ul li{
     padding-left: 10px;
 }
 
-.active {
-    font-weight: bold;
-}
 
 nav ul::after{
     content: "";
@@ -95,6 +92,9 @@ nav a:hover{
     width: 100%;
     z-index: 1000;
 }
+
+
+
 nav > ul li:hover .sous{
     display: block;
 }
@@ -107,6 +107,12 @@ nav > ul li:hover .sous{
     padding-bottom: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: normal;
+    
+}
+
+.active {
+    font-weight: bold;
 }
 
 .sous a:hover{
