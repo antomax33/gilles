@@ -11,11 +11,19 @@ h1 {
     font-size: xx-large;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
+p {
+    width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-
-nav{
+nav {
     width: 100%;
     /*background-color: grey;*/
     position: sticky;
@@ -112,4 +120,12 @@ img {
     width: 30em;
     margin-left: auto;
     margin-right: auto;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+footer {
+    background-color: #aaa;
 }
