@@ -8,10 +8,14 @@
 
 h1 {
     color :black;
-    font-size: xx-large;
+    font-size:xx-large;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
 }
 
 p {
