@@ -11,15 +11,15 @@
             
             <nav>
                 <ul>
-                    <li class="active"><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="apropos.html">À propos</a></li>
-                    <li class="deroulant"><a href="#">Peinture &ensp;</a>
+                    <li class="deroulant"><a href="">Peinture &ensp;</a>
                         <ul class="sous">
                             <li><a href="aquarelle.html">Aquarelle</a></li>
                             <li><a href="acrylique.html">Acrylique</a></li>
                         </ul>
                     </li>
-                    <li class="deroulant"><a href="#">Photographie &ensp;</a>
+                    <li class="deroulant"><a href="">Photographie &ensp;</a>
                         <ul class="sous">
                             <li><a href="noirblanc.html">Noir Blanc</a></li>
                             <li><a href="couleur.html">Couleur</a></li>
@@ -35,11 +35,38 @@
             
             
         </header>
+        
+        <form action="mailto:antoine.cornaz01@gmail.com" method="post">
+            <h1 id="titreFormulaire">Formulaire de contact</h1>
+            <div>
+                <label for="name">Nom :<br/></label>
+                <input type="text" id="name" name="user">
+                
+            </div>
+            <div>
+                <label for="mail">E-mail :<br/></label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :<br/></label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
 
+            <div>
+                <button class="btn" type="submit">Envoyer le message</button>
+            </div>
+
+
+        </form>
         
         <br/>
         <br/>
         <br/>
+        <footer>
+            <p>
+                2021 copyright ©
+            </p>
+        </footer>
 
     </body>
 </html>

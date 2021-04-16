@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css"> 
         <title>Llina</title> 
+        <script type="text/javascript" src="image.js"></script>
     </head>
 
     <body>
@@ -39,12 +40,29 @@
 
         <h1>Aquarelle</h1>
 
-        <figure>
-            <img src="image/mahamudra.jpg">
-        </figure>
+        <section>
+           <container>
+               <aside><button class="right" onclick="changerImage(true, 'acquarelle')">></button></aside>
+                <aside><button class="left" onclick="changerImage(false, 'acquarelle')"> &lt; </button></aside>
+                
+                <figure>
+                    <img id="acquarelle" src="image/mahamudra.jpg">
+                </figure>
+                
+            </container>
+            
+        </section>
         <br/>
         <br/>
         <br/>
+
+        <footer>
+            <p>
+                2021 copyright ©
+            </p>
+        </footer>
+
+
     </body>
 
 </html> 

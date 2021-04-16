@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css"> 
         <title>Llina</title> 
+        <script type="text/javascript" src="image.js"></script>
+
     </head>
     <body>
         <header>
@@ -38,20 +40,44 @@
 
         <h1>Acrylique</h1>
 
-        <figure>
-            <img src="image/mahamudra.jpg">
-        </figure>
 
-        <h2>yoga</h2>
+        <section>
+            <container>
+                <aside><button class="right" onclick="changerImage(true, 'acrylique')">></button></aside>
+                <aside><button class="left" onclick="changerImage(false, 'acrylique')"> &lt; </button></aside>
 
-        <figure>
-            <img src="image/danseurs-1.webp">
-        </figure>
+                <figure>
+                    <img id="acrylique" src="image/mahamudra.jpg">
+                </figure>
 
-        <h2>tango</h2>
+
+            </container>
+            
+            <h2>yoga</h2>
+
+            <container>
+                <aside><button class="right" onclick="changerImage(true, 'yoga')">></button></aside>
+                <aside><button class="left" onclick="changerImage(false, 'yoga')"> &lt; </button></aside>
+
+                <figure>
+                    <img id="yoga" src="image/danseurs-1.webp">
+                </figure>
+                
+            </container>
+
+            <h2>tango</h2>
+
+        </section>
+
         <br/>
         <br/>
         <br/>
+        <footer>
+            <p>
+                2021 copyright ©
+            </p>
+        </footer>
+
 
     </body>
 </html>

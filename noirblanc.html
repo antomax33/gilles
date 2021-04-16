@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css"> 
         <title>Llina</title> 
+        <script type="text/javascript" src="image.js"></script>
     </head>
     <body>
         <header>
@@ -38,13 +39,28 @@
 
         <h1>Noir Blanc</h1>
 
-        <figure>
-            <img src="image/aurore-lucas-nb-2.webp">
-        </figure>
+       <section>
+           <container>
+               <aside><button class="right" onclick="changerImage(true, 'noirBlanc')">></button></aside>
+                <aside><button class="left" onclick="changerImage(false, 'noirBlanc')"> &lt; </button></aside>
+                
+                <figure>
+                    <img id="noirBlanc" src="image/aurore-lucas-nb-2.webp">
+                </figure>
+                
+            </container>
+            
+        </section> 
 
         <br/>
         <br/>
         <br/>
+        <footer>
+            <p>
+                2021 copyright ©
+            </p>
+        </footer>
+
 
     </body>
 </html>
