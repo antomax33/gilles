@@ -61,10 +61,10 @@ nav ul{
 #Llina {
     /*margin-top: 20px;*/
     margin-left: 20px;
-    padding: 5px;
+    /*padding: 5px;*/
     width: min-content;
     /*background-color: var(--lina-bg-color);*/
-    border-radius:7px;
+    /*border-radius:7px;*/
 }
 
 
