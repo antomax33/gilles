@@ -135,7 +135,7 @@ nav > ul li:hover .sous{
 
 
 .deroulant > a:hover {
-    color: black;
+    color: var(--text-color);
 }
 
 .deroulant > a::after{
